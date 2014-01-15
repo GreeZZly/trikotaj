@@ -51,9 +51,17 @@ body, html {
 }
 
 #commercial_background {
-	background-color: #E6E6E6;
-	border-bottom: 3px solid #D4D4D4;
+	background-color: #F9F9F9;
+	border-bottom: 0px solid #B2E0ED;
+	 -moz-transition: background-color 3s 1s ease;
+    -o-transition: background-color 3s 1s ease;
+    -webkit-transition: background-color 3s 1s ease;
 }
+
+  #commercial_background:hover {
+    background-color: #D3D382;
+    color: #000;
+  }
 
 #reviews_background {
 	background-color: #F9F9F9;
@@ -320,4 +328,18 @@ body, html {
 }
 .pmwidget {
 	overflow: hidden;
+}
+
+#commercial_img {
+	display: block;
+	margin: 0 auto;
+}
+/*#pusto_mesto {
+	height: 60px;
+}*/
+
+#pusto_mesto_cvetno {
+	height: 50px;
+	background-color: #B2E0ED;
+	border-bottom: 1px solid #6BC4DC;
 }
