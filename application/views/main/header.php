@@ -14,7 +14,7 @@
 			</li>
 			<li>
 				<div id="header_center">
-					<div id="header_phone">+7(8352)48-63-31</div>
+					<div id="header_phone">+7(8352)63-06-54</div>
 					<div id="header_socials">
 						<div class="icon_header_vk"></div>
 						<div class="icon_header_tweet"></div>

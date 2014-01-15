@@ -305,3 +305,19 @@ body, html {
 #header_right{
 	margin-top: 5px;
 }
+
+.b-share-btn__wrap {
+	margin: 20px 30px;
+	/*display: block;*/
+}
+.b-share-icon {
+	margin: 0 auto;
+}
+.b-share {
+	display: block;
+	margin-top:7px;
+
+}
+.pmwidget {
+	overflow: hidden;
+}

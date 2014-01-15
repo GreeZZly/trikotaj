@@ -5,7 +5,7 @@
 			<li>
 				<div id="vk_groups"></div>
 					<script type="text/javascript">
-					VK.Widgets.Group("vk_groups", {mode: 0, width: "470", height: "300", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 20003922);
+					VK.Widgets.Group("vk_groups", {mode: 0, width: "470", height: "300", color1: 'FFFFFF', color2: '2B587A', color3: '5B7FA6'}, 52562990);
 					</script>
 			</li>
 			<li>

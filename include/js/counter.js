@@ -37,4 +37,4 @@ function performAnimation(element, value, animTime){
             visible.attr('class', 'invisible').hide().css('top', '-105px')
     });
 }
-startCounter(10, 400, 6);
+startCounter(10, 40, 6);
