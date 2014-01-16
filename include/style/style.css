@@ -343,3 +343,8 @@ body, html {
 	background-color: #B2E0ED;
 	border-bottom: 1px solid #6BC4DC;
 }
+
+.prod_img img{
+	width: 220px;
+	height: 200px;
+}

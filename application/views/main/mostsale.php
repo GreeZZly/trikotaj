@@ -3,26 +3,26 @@
 		<div class="block_title">Часто покупают</div>
 		<ul>
 			<li>
-				<div class="prod_img"><img src="/include/images/img1.png"></div>
-				<div class="prod_name">Зонт</div>
+				<div class="prod_img"><img src="/include/images/wear/1.jpg"></div>
+				<div class="prod_name">Детский набор</div>
 				<div class="prod_cost">200 руб.</div>
 				<div class="toCartButton">В корзину</div>
 			</li>
 			<li>
-				<div class="prod_img"><img src="/include/images/img2.png"></div>
-				<div class="prod_name">Пинетки</div>
+				<div class="prod_img"><img src="/include/images/wear/2.jpg"></div>
+				<div class="prod_name">Футболка</div>
 				<div class="prod_cost">52 руб.</div>
 				<div class="toCartButton">В корзину</div>
 			</li>
 			<li>
-				<div class="prod_img"><img src="/include/images/img3.png"></div>
-				<div class="prod_name">КПБ</div>
+				<div class="prod_img"><img src="/include/images/wear/3.jpg"></div>
+				<div class="prod_name">Футболка</div>
 				<div class="prod_cost">540 руб.</div>
 				<div class="toCartButton">В корзину</div>
 			</li>
 			<li>
-				<div class="prod_img"><img src="/include/images/img4.png"></div>
-				<div class="prod_name">Комплект</div>
+				<div class="prod_img"><img src="/include/images/wear/4.jpg"></div>
+				<div class="prod_name">Майка</div>
 				<div class="prod_cost">300 руб.</div>
 				<div class="toCartButton">В корзину</div>
 			</li>
