@@ -3,7 +3,7 @@
 		<ul>
 			<li>
 				<div id="header_left">
-					<div id="logo"><img src="/include/images/logo.png"></div>
+					<a href="/"><div id="logo"><img src="/include/images/logo.png"></div></a>
 					<div id="search">
 						<form name="search" method="post" action="/index.php/main/search">
 						    <input type="search" name="query" placeholder="Поиск" id="search_field">

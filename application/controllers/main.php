@@ -1,4 +1,4 @@
-﻿<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
+<?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Main extends CI_Controller {
 
@@ -16,6 +16,28 @@ class Main extends CI_Controller {
 		$this->load->view('main/banner1');
 		$this->load->view('main/newprod');
 		$this->load->view('main/counter');
+		$this->load->view('main/minimap');
+		$this->load->view('main/footer');
+		$this->load->view('main/htmlfooter.html');
+	}
+
+	public function catalog() {
+		$this->load->view('main/htmlheader.html');
+		$this->load->view('main/header');
+		$this->load->view('main/navbar');
+		$this->load->view('main/catalog');
+		$this->load->view('main/banner');
+		$this->load->view('main/minimap');
+		$this->load->view('main/footer');
+		$this->load->view('main/htmlfooter.html');
+	}
+
+	public function product() {
+		$this->load->view('main/htmlheader.html');
+		$this->load->view('main/header');
+		$this->load->view('main/navbar');
+		$this->load->view('main/catalog');
+		$this->load->view('main/banner');
 		$this->load->view('main/minimap');
 		$this->load->view('main/footer');
 		$this->load->view('main/htmlfooter.html');

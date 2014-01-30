@@ -15,4 +15,13 @@ $(document).ready(function(){
 				clearInterval(e);
 			}
 		},100);
+
+	$('.cat_item').on('click', function(){
+		$('.cat_item').removeClass('active');
+		$(this).addClass('active');
+	});
+	$('.pagi_item').on('click', function(){
+		$('.pagi_item').removeClass('pagi_active');
+		$(this).addClass('pagi_active');
+	});
 });
