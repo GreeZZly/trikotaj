@@ -36,7 +36,7 @@ class Main extends CI_Controller {
 		$this->load->view('main/htmlheader.html');
 		$this->load->view('main/header');
 		$this->load->view('main/navbar');
-		$this->load->view('main/catalog');
+		$this->load->view('main/product');
 		$this->load->view('main/banner');
 		$this->load->view('main/minimap');
 		$this->load->view('main/footer');
