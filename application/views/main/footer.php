@@ -4,3 +4,9 @@
 		<div id="ss"></div>
 	</div>
 </div>
+
+<!-- RedHelper -->
+<script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async" 
+	src="https://web.redhelper.ru/service/main.js?c=tricotag21">
+</script> 
+<!--/Redhelper -->
