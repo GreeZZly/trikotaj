@@ -1,0 +1,92 @@
+/**
+ * @file
+ * Styles are organized using the SMACSS technique. @see http://smacss.com/book/
+ *
+ * When you turn on CSS aggregation at admin/config/development/performance, all
+ * of these @include files will be combined into a single file.
+ */
+
+/* HTML element (SMACSS base) rules */
+@import "normalize.css";
+
+/* Layout rules */
+@import "layouts/fixed.css";
+
+/* Component (SMACSS module) rules */
+@import "components/misc.css";
+/* Optionally, add your own components here. */
+@import "print.css";
+
+/* SMACSS theme rules */
+/* @import "theme-A.css"; */
+/* @import "theme-B.css"; */
+
+
+#edit-search-block-form--2 {
+	width: 85%;
+}
+#search .block {
+	margin-bottom: 0;
+}
+
+#navbar .inline li {
+	padding: 0 1em;
+}
+
+#navbar .first {
+	background-image: url(/sites/all/themes/zenshop/include/images/home.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	text-indent: -9999px;
+}
+#commercial .block {
+	margin-bottom: 0px;
+}
+
+#commercial .block  img {
+	display: block;
+	margin: 0 auto;
+}
+
+.block-title {
+	text-align: center;
+}
+
+#main {
+	width: 980px;
+	margin: 0 auto;
+}
+body.not-front #pusto_mesto_cvetno{
+	display:none;
+}
+
+#mostsale table {
+	width: 100%;
+}
+
+#mostsale table img {
+	display: block;
+	margin: 0 auto;
+}
+
+.prod_name a {
+	color: #31322C;
+	text-decoration: none;
+}
+
+.form-submit:not(#edit-submit) {
+	background-color: #E85C41;
+	border: none;
+	color: #fefefe;
+	width: 110px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.form-submit:hover:not(#edit-submit) {
+	background-color: #CC4025;
+}
+
+#logistr #login, #logistr #registr {
+	text-decoration: underline;
+}
